@@ -1,0 +1,18 @@
+.header {
+    background-color: #fbd062;
+    padding-bottom: 8vh;
+    position: relative;
+}
+
+.header::after,
+.header::before {
+    content: '';
+    position: absolute;
+    height: 92px;
+
+    bottom: -50px;
+    right: 0;
+    left: 0;
+    background: white;
+    transform: rotate(-3deg);
+}

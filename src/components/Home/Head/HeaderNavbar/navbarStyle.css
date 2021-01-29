@@ -1,0 +1,10 @@
+.navLink {
+    color: black;
+    font-weight: 600;
+}
+#btn {
+    background: black;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
